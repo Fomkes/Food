@@ -1,0 +1,11 @@
+a:1:{i:1742709;a:2:{s:4:"name";s:12:"aibaik24.org";s:6:"listen";s:29:"websocket://aibaik24.org:9998";}}
+----------------------------------------------GLOBAL STATUS----------------------------------------------------
+Workerman version:4.1.13          PHP version:8.1.28
+start time:2025-01-26 07:01:10   run 0 days 0 hours   
+load average: 0, 0.01, 0         event-loop:\Workerman\Events\Select
+1 workers       1 processes
+worker_name  exit_status      exit_count
+aibaik24.org 0                0
+----------------------------------------------PROCESS STATUS---------------------------------------------------
+pid	memory  listening                     worker_name  connections send_fail timers  total_request qps    status
+1742709	0.45M   websocket://aibaik24.org:9998 aibaik24.org 0           0         0       2            
