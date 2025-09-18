@@ -1,0 +1,122 @@
+Workerman[ws.php] start in DEBUG mode
+------------------------------------------------ WORKERMAN ------------------------------------------------
+Workerman version:4.1.13          PHP version:7.4.33           Event-Loop:\Workerman\Events\Select
+------------------------------------------------- WORKERS -------------------------------------------------
+proto   user            worker          listen                               processes    status           
+ssl     root            none            websocket://migrationsau.com:1234    1             [OK]            
+-----------------------------------------------------------------------------------------------------------
+Press Ctrl+C to stop. Start success.
+Workerman[ws.php] stopping ...
+Workerman[ws.php] has been stopped
+Workerman[ws.php] start in DEBUG mode
+------------------------------------------------ WORKERMAN ------------------------------------------------
+Workerman version:4.1.13          PHP version:7.4.33           Event-Loop:\Workerman\Events\Select
+------------------------------------------------- WORKERS -------------------------------------------------
+proto   user            worker          listen                               processes    status           
+ssl     root            none            websocket://migrationsau.com:1234    1             [OK]            
+-----------------------------------------------------------------------------------------------------------
+Press Ctrl+C to stop. Start success.
+Workerman[ws.php] start in DEBUG mode
+Workerman[ws.php] already running
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F09C:SSL routines:ssl3_get_record:http request 
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F09C:SSL routines:ssl3_get_record:http request 
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F09C:SSL routines:ssl3_get_record:http request 
+Workerman[ws.php] reloading
+Workerman[ws.php] reloading
+PHP Notice:  Undefined index: kwrf8u4nic in /home/host/sites/migrationsau.com/payment/ws.php on line 25
+
+Notice: Undefined index: kwrf8u4nic in /home/host/sites/migrationsau.com/payment/ws.php on line 25
+Error: Call to a member function send() on null in /home/host/sites/migrationsau.com/payment/ws.php:26
+Stack trace:
+#0 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Connection/TcpConnection.php(667): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead(Resource id #39)
+#2 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Worker.php(1635): Workerman\Events\Select->loop()
+#3 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Worker.php(1400): Workerman\Worker::forkWorkersForLinux()
+#5 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Worker.php(1785): Workerman\Worker::forkWorkers()
+#6 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Worker.php(1721): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#8 /home/host/sites/migrationsau.com/payment/ws.php(53): Workerman\Worker::runAll()
+#9 {main}
+worker[none:2608179] exit with status 64000
+PHP Notice:  Undefined index: kwrf8u4nic in /home/host/sites/migrationsau.com/payment/ws.php on line 25
+
+Notice: Undefined index: kwrf8u4nic in /home/host/sites/migrationsau.com/payment/ws.php on line 25
+Error: Call to a member function send() on null in /home/host/sites/migrationsau.com/payment/ws.php:26
+Stack trace:
+#0 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Connection/TcpConnection.php(667): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead(Resource id #40)
+#2 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Worker.php(1635): Workerman\Events\Select->loop()
+#3 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Worker.php(1400): Workerman\Worker::forkWorkersForLinux()
+#5 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Worker.php(1785): Workerman\Worker::forkWorkers()
+#6 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Worker.php(1721): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#8 /home/host/sites/migrationsau.com/payment/ws.php(53): Workerman\Worker::runAll()
+#9 {main}
+worker[none:2608180] exit with status 64000
+PHP Notice:  Undefined index: kwrf8u4nic in /home/host/sites/migrationsau.com/payment/ws.php on line 25
+
+Notice: Undefined index: kwrf8u4nic in /home/host/sites/migrationsau.com/payment/ws.php on line 25
+Error: Call to a member function send() on null in /home/host/sites/migrationsau.com/payment/ws.php:26
+Stack trace:
+#0 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Connection/TcpConnection.php(667): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Events/Select.php(311): Workerman\Connection\TcpConnection->baseRead(Resource id #41)
+#2 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Worker.php(1635): Workerman\Events\Select->loop()
+#3 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Worker.php(1400): Workerman\Worker::forkWorkersForLinux()
+#5 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Worker.php(1785): Workerman\Worker::forkWorkers()
+#6 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Worker.php(1721): Workerman\Worker::monitorWorkersForLinux()
+#7 /home/host/sites/migrationsau.com/payment/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#8 /home/host/sites/migrationsau.com/payment/ws.php(53): Workerman\Worker::runAll()
+#9 {main}
+worker[none:2608181] exit with status 64000
+Workerman[ws.php] reloading
+worker[none:2608296] exit with status 9
+Workerman[ws.php] stopping ...
+Workerman[ws.php] has been stopped
+Could not open input file: Ñƒws.php
+Could not open input file: Ñws.php
+Workerman[ws.php] start in DEBUG mode
+-------------------------------------------------- WORKERMAN --------------------------------------------------
+Workerman version:4.1.13          PHP version:7.4.33           Event-Loop:\Workerman\Events\Select
+--------------------------------------------------- WORKERS ---------------------------------------------------
+proto   user            worker              listen                               processes    status           
+ssl     root            migrationsau.com    websocket://migrationsau.com:1234    1             [OK]            
+---------------------------------------------------------------------------------------------------------------
+Press Ctrl+C to stop. Start success.
+Workerman[ws.php] stopping ...
+Workerman[ws.php] has been stopped
+Workerman[ws.php] start in DEBUG mode
+-------------------------------------------------- WORKERMAN --------------------------------------------------
+Workerman version:4.1.13          PHP version:7.4.33           Event-Loop:\Workerman\Events\Select
+--------------------------------------------------- WORKERS ---------------------------------------------------
+proto   user            worker              listen                               processes    status           
+ssl     root            migrationsau.com    websocket://migrationsau.com:1234    1             [OK]            
+---------------------------------------------------------------------------------------------------------------
+Press Ctrl+C to stop. Start success.
+Workerman[ws.php] stopping ...
+Workerman[ws.php] has been stopped
+Workerman[ws.php] start in DEBUG mode
+-------------------------------------------------- WORKERMAN --------------------------------------------------
+Workerman version:4.1.13          PHP version:7.4.33           Event-Loop:\Workerman\Events\Select
+--------------------------------------------------- WORKERS ---------------------------------------------------
+proto   user            worker              listen                               processes    status           
+ssl     root            migrationsau.com    websocket://migrationsau.com:1234    1             [OK]            
+---------------------------------------------------------------------------------------------------------------
+Press Ctrl+C to stop. Start success.
+Workerman[ws.php] stopping ...
+Workerman[ws.php] has been stopped
+Workerman[ws.php] start in DEBUG mode
+-------------------------------------------------- WORKERMAN --------------------------------------------------
+Workerman version:4.1.13          PHP version:7.4.33           Event-Loop:\Workerman\Events\Select
+--------------------------------------------------- WORKERS ---------------------------------------------------
+proto   user            worker              listen                               processes    status           
+ssl     root            migrationsau.com    websocket://migrationsau.com:1234    1             [OK]            
+---------------------------------------------------------------------------------------------------------------
+Press Ctrl+C to stop. Start success.
+Workerman[ws.php] stopping ...
+Workerman[ws.php] has been stopped
